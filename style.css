@@ -1,0 +1,53 @@
+body{font-family:sans-serif;
+font-size:13px;
+margin:0px;
+padding:0px;
+background-color:rgba(252, 252, 154, 0.333);
+/*background-image:url("ma\ photo\ .jpg") ;*/
+background-size:50%;
+background-repeat:initial;
+background-attachment: scroll;
+}
+h1{text-align: center;text-decoration: underline;}
+p{font-style:italic;font-weight: lighter;}
+#t1{font-size:40px;font-weight:bold;text-align:center;}
+header{height:100px;}
+footer{height:80px;padding-top:30px;text-align:center;background-color: #585555;border-top:2px solid #aaa;}
+nav{width: 100px;background-color: #424558;}
+nav ul{margin: 0px;padding: 0px;}
+nav li{list-style-type: none;float: left;}
+nav a{display:inline-block;text-decoration: none;padding: 20px 30px;
+    color:rgb(83, 8, 73);text-transform: uppercase;font-size: 15px;}
+.menu{display:table;margin:0px auto;background-color:rgba(250, 200, 56, 0,12);}
+.ind:hover,.cursusparcours,{border-top:5px solid #4C8;background-color: rgba(64,200,130,0,15);}
+.cont:hover,.compétences{border-top: 5px solid #f1dc4f;background-color: rgba(241,211,79,0,15);}
+.con:hover,.experiences{border-top: 5px solid #007000;background-color:rgba(000,112,192,0,15);}
+@media screen {(max-width: 780px;)
+header{height: 50px;}
+h1{font-size: 20px;margin: 20px 0px 0px 0px ;text-align: center;}
+nav li a{font-size: 12px;padding: 10px;}
+nav li:hover a{padding: 5Px 10px 10px 10px;}
+}
+section{width: 100%;min-height:300px;padding-top: 10px;margin-top: 10px;}
+.sec{margin: 0px 10px;}
+.left{float: left;width: 30%;}
+.{float: left;width: 70%;}
+.head{border:2px solid #585555;width:0 auto;background-color: #4C8;position:relative;}
+.right{float:left;width: 70%;}
+#h3,span,h3{font-size:30px; font-weight: bold;text-align:center;text-decoration: underline;}
+img{width: 30%;}
+#mail{text-decoration: none;text-transform: none;}
+#pre,#pro,#pra,#pri,.pp{font-size:15px;font-style: italic;font-family: 'Courier New', Courier, monospace;}
+.kaka{margin:0px auto;padding:0% 30% 0px 0px;text-decoration: underline;}
+.tof{width: 40%;height: 50%; float: right; position: relative;}
+h4{text-decoration: underline; font-weight: bold;}
+#pree{font-size: x-large; font-weight: bold;}
+dt{text-decoration: underline; font-weight: bold;list-style-type: circle;}
+.coor a{display:block; text-decoration: none;text-transform: none;}
+.mail,.tel,.mail,.doc{display:inline-block; border: 2px solid black;background-color: #c79333;
+  border-radius: 8px;}
+a{color: #fff;font-size: 16px;font-weight: bold; font-style: inherit;}
+.tel{margin:40px 300px;width: 200px;text-align: center;}
+.mail{width: 200px;text-align: center;}
+.doc{margin:auto;width: 200px;text-align: center;}
+
